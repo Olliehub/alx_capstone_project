@@ -25,7 +25,9 @@ Roadmap and future enhancements:
 Subsequently, more changes and updates will be implemented and the project is open for collaboration.
 
 Contact Information:
-Phone: +234 813 568 9123
-Email: Charlibossubom@gmail.com
-X: @Olliestuntn
-Instagram: @Oliestuntn
+<ul>
+<li>Phone: +234 813 568 9123</li>
+<li>Email: Charlibossubom@gmail.com</li>
+<li>X: @Olliestuntn</li>
+<li>Instagram: @Oliestuntn</li>
+</ul>
