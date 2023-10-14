@@ -29,5 +29,5 @@ Contact Information:
 <li>Phone: +234 813 568 9123</li>
 <li>Email: Charlibossubom@gmail.com</li>
 <li>X: @Olliestuntn</li>
-<li>Instagram: @Oliestuntn</li>
+<li>Instagram: @Olliestuntn</li>
 </ul>
