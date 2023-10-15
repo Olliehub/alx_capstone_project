@@ -9,6 +9,10 @@ A PROJECT ON PERSONAL PORTFOLIO WEBSITE
 <li>Display your projects with brief descriptions, images, and links to live demos or source code repositories.</li>
 </ul>
 
+.line{
+    border-bottom: 1px solid
+}
+
 Project Overview:
 Project Overview:
 This is a personal portfolio project aim in projecting individual creativity, experience, skillsets, services and promote future collaboration with potential Software Engineers.

@@ -1,6 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-body
+*
 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.body
+{
+    background-color: hsla(330, 5%, 16%, 0.796);
+}
+
+.hearder
+{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(31, 31, 2, 0.973);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    position: relative;
+    font-size: 50px;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar
+{
+    display: grid;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: none;
+}
+.navbar a:hover
+{
+    color: rgb(17, 1, 1);
+}
+
+.home
+{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url("C:\Users\charl\Desktop\Ollie.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 50px 10% 0;
+}
+.home-content
+{
+    max-width: 600px;
+}
+.home-content h3
+{
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
 }
