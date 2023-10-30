@@ -16,61 +16,107 @@
 .hearder
 {
     position: fixed;
-    top: 0%;
-    left: 0%;
+    justify-content: space-between;
+    width: 17.3%;
+    height: 100vh;
+    padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 0px;
+    padding-bottom: 0%;
+    background-color: rgba(105, 105, 105, 0.32);
+    z-index: 0%;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 50%;
+}
+.navbar a {
+    padding-left: 50%;
+    display: grid;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(129, 128, 117, 0.703);
+    transition: .3s;
+    text-decoration: none;
+}
+.navbar a:active {
+    color: rgba(215, 169, 19, 0.974);
+}
+
+#Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(12, 3, 3);
+    background-image: url('/git/alx_capstone_project/assets/hands\ up.jpg');
+}
+.Home-content {
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     padding: 20px 10%;
     background: rgba(31, 31, 2, 0.973);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.logo
-{
-    position: relative;
-    font-size: 50px;
-    color: rgb(11, 11, 11);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.navbar
-{
-    display: grid;
-    font-size: medium;
-    color: black;
-    text-decoration: none;
-    font-weight: 600;
-    margin-left: 35px;
-    transition: none;
-}
-.navbar a:hover
-{
-    color: rgb(17, 1, 1);
-}
-
-.home
-{
-    position: relative;
+    justify-content: space-between;
+    font-size: 100px;
     width: 100%;
-    justify-content: space-between;
-    height: 100vh;
-    background-image: url("C:\Users\charl\Desktop\Ollie.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    padding: 50px 10% 0;
+    height: 50vh;
+    margin-left: 50px;
+    padding: 5% 5% 0%;
 }
-.home-content
-{
-    max-width: 600px;
+.Home-content h1 span {
+    color: rgba(230, 193, 8, 0.793);
 }
-.home-content h3
-{
-    font-size: 30px;
-    font-weight: 700;
+.Home-content h3 {
     align-items: center;
     justify-content: space-between;
+    font-size: 50px;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -70px;
+}
+.Home-content h3 span {
+    font-weight: 500;
+    color: dimgrey;
+    align-items: center;
+    inline-size: 1.2px;
+}
+.Home-content .btn-box {
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    height: 30vh;
+    line-height: 10;
+    
+}
+.Home-content .btn-box a {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    height: 4.3vh;
+    border-radius: 19px;
+    background: #65645ae9;
+    border: 2px solid;
+    border-color: #65645ae9;
+    font-size: 18px;
+    text-decoration: none;
+    color: #e9e7dfd8;
+    font-weight: 500;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.Home-content .btn-box a:hover {
+    color: #e9e7dfd8;
 }
