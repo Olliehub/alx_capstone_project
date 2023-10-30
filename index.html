@@ -1,40 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--Header-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Personal Portfolio site </title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
+    <!--Header of the page where you have the navbar-->
     <header class="header">
-        <div data-simplebar="init" class="d-none d-lg-flex justify-content-center align-items-center _wrapper"></div>
-        <div class="simplebar-mask"><div class="simplebar-offset" style="right: 0px; bottom: 0px;">
-            <div class="simplebar-content-wrapper" tabindex="0" role="region" aria-label="scrollable content" style="height: 100%; overflow: hidden;">
-                <div class="simplebar-content" style="padding: 0px;">
-                    <div class="_header">
-                        <a style="overflow:hidden" href="#home">
-                            <img alt="Profile avatar" fetchpriority="high" width="110" height="110" decoding="async" data-nimg="1" class="_avatar" style="color: transparent;" sizes="110px" srcset="#"></a>
-                            <span class="_name">Charles Ollie</span><p class="_status">Let's collaborate</p></div>
-                            <div class="_menu">
-                                <div class="_list">
-                                    <a class="nav-link --active">Home</a>
-                                    <a class="nav-link">About Me</a>
-                                    <a class="nav-link">Skills</a>
-                                    <a class="nav-link">Projects</a>
-                                    <a class="nav-link">Contact Information</a>
-                                </div>
-                            </div>
-                        </div>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;"class="active">Home</a>
+            <a href="#About" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#projects" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Page-->
+
+    <section id="Home">
+        <div class="Home-content">
+            <h1> Charles <span>Ollie</span></h1>
+            <h3><span class="text"> Software Engineer and Web Developer</span></h3>
+
+            <div class="btn-box">
+                <a href="#contact" style="--i:5;">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--End of Home Page-->
+
+    <!--About Me section-->
+
+    <section class="about-me" id="about-me">
+        <div class="Avatar-img">
+            <img src="./assets/burn.jpg" alt="My avi">
+        </div>
+
+        <div class="about-text">
+            <h2><span>About me</span></h2>
+            <h4>I'm Charles Ollie, a Software Engineer, Web Developer and Freelancer</h4>
+            <p> I am a freelancer based in Nigeria, my motives has always been to create mind blowing visionable ideas
+                and turning them into reality,
+                which complies with the latest design trends. My professionalism, technology skills and
+                great taste for product evolution has helped me prioritize tasks,
+                iterate fast and deliver faster. I am passion driven which is good for growth and inevitable in my line of craft, working with me will create room for an introspective collaboration and ideas execution.</p>
+        </div>
+    </section>
+
+    <!--End of About Me section-->
+
+    <!--Skills section-->
+
+    <section class="sub-title">
+        <h1><span>Skills</span></h1>
+        <div class="container">
+            <h2 class="headings">Technical Skills</h2>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color: rgb(42, 14, 144);" class="fa-brands fa-html5"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #ff0000;" class="fa-brands fa-css3"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: rgb(249, 216, 4);" class="fa-brands fa-js"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line JavaScript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: rgb(136, 72, 3);" class="fa-brands fa-python"></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line Python">
+                        <span></span>
                     </div>
                 </div>
             </div>
-        </div>
+
         </div>
     </section>
+
+    <!--End of Skills section-->
+
+    <!--Projects section-->
+
+    <section>
+        <div class="Projects-section">
+            <h2>Projects</h2>
+            <p>Below are all completed tasks and projects on ALX! </p>
+            
+            <div class="btn-box2">
+                <a href="https://github.com/Olliehub">ALX completed projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!--End of Project section-->
+
+    <!--Contact section-->
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+
+            <div class="contact-list">
+                <li><i class="fa-solid fa-envelope">Charlibossubom@gmail.com</i></li>
+                <li><i class="fa-solid fa-phone">+234 813 568 9123</i></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.instagram.com/olliestuntn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/olliestuntn"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="www.linkedin.com/in/charles-ubom-54803521a"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Olliehub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <!--contact form-->
+
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter your Email" required>
+
+                <input type="Subject" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter  Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+
+    </section>
+
+    <!-- End of Contact section-->
+
+    <!--Last Text-->
+
+    <div class="last-text">
+        <p>Developed with love by Charles Ollie &#169 2023</p>
+    </div>
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
 
     <script src="./Js/app.js"></script>
 </body>
