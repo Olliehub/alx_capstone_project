@@ -35,6 +35,8 @@ body {
 
 }
 
+/* Navigation bar */
+
 .navbar {
     width: 50%;
     height: 50vh;
@@ -58,6 +60,8 @@ body {
 a:hover {
     color: rgba(215, 169, 19, 0.974);
 }
+
+/* Home Page */
 
 #Home {
     display: flex;
@@ -256,6 +260,8 @@ a:hover {
 
 }
 
+/* Technical skills bar */
+
 .Technical-bars {
     display: grid;
     align-items: center;
@@ -324,6 +330,8 @@ a:hover {
     width: 50%;
 }
 
+/* Projects Section */
+
 .Projects-section {
     display: grid;
     align-items: center;
@@ -381,6 +389,8 @@ a:hover {
 .btn-box2 a:hover {
     color: rgba(215, 169, 19, 0.974);
 }
+
+/* Contact Section */
 
 .contact {
     display: grid;
@@ -490,6 +500,8 @@ a:hover {
     animation-delay: 2s;
     box-shadow: 0 0 5px rgba(14, 14, 14, 0.703), 0 0 25px rgba(14, 14, 14, 0.703);
 }
+
+/* Last text */
 
 .last-text p {
     width: 100%;
