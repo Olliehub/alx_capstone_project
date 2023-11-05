@@ -18,13 +18,13 @@ Having a portfolio website as a softwaree engineer is a great way to brand, comp
 *******************************************************************
 
 **Features and functionality:**
-This website is decorated to have a user friendly features and functions like logo icon which can as well be the home button, a seamless navigation layout which helps users navigate through the website effotlessly, an up arrow navigation icon and Contact icons.
+This website is decorated to have a user friendly features and functions, a seamless navigation layout which helps users navigate through the website effotlessly, an up arrow navigation icon to the homepage, an active link buttons, progress line bar, and Contact icons and forms.
 
 *******************************************************************
 
 **Technologies Used:**
 First off to build a good and proper site, i designed a prototype with Draw.io which helps in creating a virtual view and concept of the project.
-secondly, used HTML and CSS for the structures and styling of the website and lastly i used Javascript for interaction and logic.
+secondly, used HTML and CSS for the structures and styling of the website with responsive designs to fit all devices.
 
 *******************************************************************
 
