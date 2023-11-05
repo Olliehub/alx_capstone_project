@@ -41,7 +41,6 @@ body {
     width: 50%;
     height: 50vh;
 }
-
 .navbar a {
     padding-left: 50%;
     display: grid;
@@ -55,7 +54,6 @@ body {
     transition: .3s;
     text-decoration: none;
 }
-
 .navbar a:active,
 a:hover {
     color: rgba(215, 169, 19, 0.974);
@@ -81,9 +79,7 @@ a:hover {
     padding-top: 10%;
     padding-left: 30%;
     color: rgba(188, 183, 152, 0.852);
-
 }
-
 .Home-content h1 {
     align-items: center;
     justify-content: space-between;
@@ -93,48 +89,29 @@ a:hover {
     margin-left: 30px;
     padding: 5% 5% 5%;
 }
-
 .Home-content h1 span {
     color: rgba(230, 193, 8, 0.793);
 }
-
-.Home-content h3 {
-    align-items: center;
-    justify-content: space-between;
-    font-size: 50px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    margin-top: -100px;
-
-}
-
 .Home-content h3 span {
     font-weight: 500;
     color: dimgrey;
     align-items: center;
     inline-size: 1.7px;
 }
-
 .btn-box {
     display: inline;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     line-height: 8px;
-    position: relative;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px rgb(241, 182, 7), 0 0 20px rgb(241, 182, 7);
     padding: 10px;
     overflow: hidden;
     border-radius: 10px;
     border: 1px solid;
 
 }
-
 .btn-box a {
     display: inline-flex;
-    position: relative;
     align-items: center;
     justify-content: space-around;
     width: 20%;
@@ -146,9 +123,7 @@ a:hover {
     letter-spacing: 1px;
     z-index: 1;
     transition: .3s ease;
-
 }
-
 .btn-box a:hover {
     color: rgba(215, 169, 19, 0.974);
 }
@@ -165,7 +140,6 @@ a:hover {
     color: rgb(66, 25, 25);
     margin: 0% auto;
 }
-
 .Avatar-img img {
     max-width: 600px;
     box-sizing: border-box;
@@ -175,10 +149,8 @@ a:hover {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    padding: 10px;
     margin-left: 60px;
 }
-
 .about-text {
     display: grid;
     font-size: 20px;
@@ -187,9 +159,7 @@ a:hover {
     padding: 50px 80px 50px;
     width: 100%;
     height: 40vh;
-
 }
-
 .about-text h2 span {
     color: rgb(21, 21, 21);
     font-weight: 350px;
@@ -199,7 +169,6 @@ a:hover {
     margin-top: -80px;
     text-align: center;
 }
-
 .about-text h4 {
     font-size: 25px;
     font-weight: 300px;
@@ -207,7 +176,6 @@ a:hover {
     align-items: center;
     justify-content: space-between;
 }
-
 .about-text p {
     justify-content: space-between;
     align-items: center;
@@ -226,19 +194,13 @@ a:hover {
     width: 100%;
     background-color: rgba(232, 232, 231, 0.952);
     color: rgb(21, 21, 21);
-    margin: 0 auto;
-    gap: 3rem;
-    padding-left: 30px;
-    margin-top: 0px;
 }
-
 .sub-title h1 {
     font-weight: 350px;
     font-size: 60px;
     color: rgb(21, 21, 21);
     justify-content: space-around;
     align-items: center;
-    margin-left: 650px;
     width: 100%;
     height: 70vh;
 }
@@ -248,7 +210,6 @@ a:hover {
     justify-content: space-around;
     height: 20px;
     width: 100%;
-}
 
 .headings {
     font-weight: 150px;
@@ -262,17 +223,6 @@ a:hover {
 
 /* Technical skills bar */
 
-.Technical-bars {
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    margin-left: -0px;
-    padding: -10px;
-    inline-size: 0%;
-    height: 200px;
-    margin-bottom: 600px;
-}
 .bar {
     font-size: 20px;
     margin-left: 60px;
@@ -307,15 +257,6 @@ a:hover {
     100%{
         transform: scaleX(1);
     }
-}
-.Technical-bars .bar .progress-line span {
-    height: 100%;
-    background-color: darkgoldenrod;
-    position: absolute;
-    border-radius: 20px;
-    animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
 }
 .progress-line.html span {
     width: 90%;
@@ -420,13 +361,8 @@ a:hover {
     font-size: 25px;
     font-weight: 500;
 }
-
 .contact-list {
     margin-bottom: 2rem;
-}
-.contact-list li {
-    margin-bottom: 10px;
-    display: block;
 }
 .contact-list li {
     margin-bottom: 10px;
@@ -437,9 +373,7 @@ a:hover {
     color: rgba(14, 14, 14, 0.703);
     font-size: 14px;
     font-weight: 200px;
-
 }
-
 .contact-icons i {
     display: inline-flex;
     align-items: center;
@@ -457,15 +391,12 @@ a:hover {
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
     box-shadow: 0 0 5px rgba(14, 14, 14, 0.703), 0 0 25px rgba(14, 14, 14, 0.703);
-
-
 }
 .contact-icons i:hover {
     background: rgba(14, 14, 14, 0.703);
     color: rgba(3, 3, 3, 0.996);
     box-shadow: 0 0 10px rgba(14, 14, 14, 0.703);
 }
-
 .contact-form form {
     position: relative;
 }
