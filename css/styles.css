@@ -68,6 +68,7 @@ a:hover {
     background-color: rgb(12, 3, 3);
     background-image: url('/git/alx_capstone_project/assets/hands\ up.jpg');
     background-position: center;
+    background-size: cover;
     margin: 0 auto;
 }
 
@@ -79,53 +80,63 @@ a:hover {
     padding-top: 10%;
     padding-left: 30%;
     color: rgba(188, 183, 152, 0.852);
+    margin: 0% auto;
 }
 .Home-content h1 {
     align-items: center;
     justify-content: space-between;
     font-size: 100px;
     width: 100%;
-    height: 35vh;
+    height: 25vh;
     margin-left: 30px;
-    padding: 5% 5% 5%;
+    padding: 5% 5% 10%;
 }
 .Home-content h1 span {
     color: rgba(230, 193, 8, 0.793);
 }
 .Home-content h3 span {
-    font-weight: 500;
-    color: dimgrey;
-    align-items: center;
-    inline-size: 1.7px;
-}
-.btn-box {
-    display: inline;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    line-height: 8px;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(139, 41, 41);
+    align-items: center;
+    inline-size: 1.5px;
+    min-width: auto;
+    margin: 0% auto;
+}
+.btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8rem;
+    height: 3rem;
+    margin: 0 auto;
     padding: 10px;
     overflow: hidden;
-    border-radius: 10px;
-    border: 1px solid;
-
+    background-color: rgba(139, 41, 41, 0.559);
+    border-radius: 20px;
+    border: 3px solid rgb(131, 11, 11);
+    box-shadow: 0 0 5px rgb(15, 15, 15);
+    margin-top: 2rem;
 }
 .btn-box a {
     display: inline-flex;
     align-items: center;
     justify-content: space-around;
-    width: 20%;
+    width: 70%;
     height: 40px;
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
-    color: rgba(49, 64, 67, 0.786);
+    color: rgba(51, 68, 72, 0.786);
     font-weight: 500;
     letter-spacing: 1px;
     z-index: 1;
     transition: .3s ease;
+    margin-left: 20px;
 }
 .btn-box a:hover {
-    color: rgba(215, 169, 19, 0.974);
+    color: rgba(230, 193, 8, 0.793);
 }
 
 /* About me section */
@@ -144,7 +155,7 @@ a:hover {
     max-width: 600px;
     box-sizing: border-box;
     border: solid rgb(71, 68, 61);
-    box-shadow: 10px;
+    box-shadow: 0 0 5px;
     border-radius: 10px;
     height: 200px;
     width: 200px;
@@ -181,18 +192,20 @@ a:hover {
     align-items: center;
     padding-top: 0px;
     font-weight: 50px;
-    margin-bottom: 2rem;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
     display: block;
+    line-height: 1em;
 }
 
 /* Skills section */
 
 .sub-title {
     display: grid;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 70vh;
     width: 100%;
-    background-color: rgba(232, 232, 231, 0.952);
+    background-color: rgba(232, 232, 231, 0.952), transparent;
     color: rgb(21, 21, 21);
 }
 .sub-title h1 {
@@ -201,68 +214,95 @@ a:hover {
     color: rgb(21, 21, 21);
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 70vh;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5em;
+    display: block;
+    gap: 2em;
 }
 .container {
-    display: inline-flex;
+    display: grid;
     align-items: center;
-    justify-content: space-around;
-    height: 20px;
-    width: 100%;
-
+    justify-content: center;
+    height: 80%;
+    width: 90%;
+    max-width: 100%;
+    border: 3px solid rgba(159, 159, 157, 0.852);
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgb(18, 5, 5);
+    border-radius: 20px;
+    padding: 28px 50px 30px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-left: 40px;
+    background-color: rgb(222, 220, 220)
+}
 .headings {
     font-weight: 150px;
     font-size: 30px;
     justify-content: space-around;
     align-items: center;
-    margin-top: -890px;
-    margin-left: 620px;
-
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 19px;
 }
 
 /* Technical skills bar */
 
 .bar {
-    font-size: 20px;
-    margin-left: 60px;
+    font-size: 12.5px;
+    margin-left: 10px;
 }
 .Technical-bars .bar {
-    margin-top: 10px 0;
+    margin-top: 10px;
 }
 .Technical-bars .bar:first-child {
     margin-top: 0%;
 }
 .Technical-bars .bar:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .Technical-bars .bar .info {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .Technical-bars .bar .info span {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 13.5px;
+    font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
 }
 .Technical-bars .bar .progress-line {
+    position: relative;
     border-radius: 10px;
-    width: 500px;
-    height: 5px;
-    background-color: rgba(17, 15, 0, 0.718);
-    color: rgba(7, 7, 7, 0.952);
-    animation: animate 1s;
+    width: 390px;
+    height: 8px;
+    background-color: rgba(101, 97, 97, 0.718);
+    color: rgba(14, 14, 14, 0.952);
+    animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
     transform-origin: left;
+    transform: scaleX(1);
 }
 @keyframes animate {
     100%{
         transform: scaleX(1);
     }
 }
+
+/* .progress-line animation */
+
+.Technical-bars .bar .progress-line span{
+    height: 100%;
+    background-color: rgb(155, 78, 78);
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(1);
+    transform-origin: left;
+}
 .progress-line.html span {
     width: 90%;
 }
 .progress-line.css span {
-    width: 65%;
+    width: 75%;
 }
 .progress-line.JavaScript span {
     width: 50%;
@@ -341,7 +381,7 @@ a:hover {
     padding-left: 30px;
     margin-top: 0px;
     color: rgba(3, 3, 3, 0.996);
-    background-color: rgb(161, 163, 163);
+    background-color: rgb(250, 250, 250), transparent;
     height: 50vh;
 }
 .contact-text h2 {
@@ -393,9 +433,9 @@ a:hover {
     box-shadow: 0 0 5px rgba(14, 14, 14, 0.703), 0 0 25px rgba(14, 14, 14, 0.703);
 }
 .contact-icons i:hover {
-    background: rgba(14, 14, 14, 0.703);
+    background: rgba(234, 189, 9, 0.777);
     color: rgba(3, 3, 3, 0.996);
-    box-shadow: 0 0 10px rgba(14, 14, 14, 0.703);
+    box-shadow: 0 0 10px rgba(19, 19, 19, 0.703);
 }
 .contact-form form {
     position: relative;
@@ -403,11 +443,11 @@ a:hover {
 .contact-form form input, form textarea {
     border: none;
     outline: none;
-    width: 90%;
-    height: 65px;
+    width: 75%;
+    height: 40px;
     padding: 10px;
     background: rgba(109, 109, 109, 0.703);
-    color: black;
+    color: rgb(250, 248, 248);
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
@@ -415,11 +455,12 @@ a:hover {
 }
 .contact-form textarea {
     resize: none;
-    height: 60px;
+    height: 5.8rem;
 }
 .contact-form form .send {
     display: inline-block;
     padding: 10px 20px;
+    width: 30%;
     background: rgba(76, 75, 70, 0.718);
     border-radius: 25px;
     font-size: 20px;
@@ -429,7 +470,10 @@ a:hover {
     font-weight: 600px;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px rgba(14, 14, 14, 0.703), 0 0 25px rgba(14, 14, 14, 0.703);
+    box-shadow: 0 0 10px rgba(14, 14, 14, 0.703);
+}
+.contact-form form .send:hover {
+    background-color: rgb(234, 186, 11);
 }
 
 /* Last text */
@@ -438,10 +482,10 @@ a:hover {
     width: 100%;
     text-align: center;
     padding: 15px 0;
-    background: transparent;
+    background: black;
     color: rgba(232, 232, 231, 0.952);
     font-weight: 300px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .top {
     position: fixed;
