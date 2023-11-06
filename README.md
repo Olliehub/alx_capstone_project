@@ -24,7 +24,8 @@ This website is decorated to have a user friendly features and functions, a seam
 
 **Technologies Used:**
 First off to build a good and proper site, i designed a prototype with Draw.io which helps in creating a virtual view and concept of the project.
-secondly, used HTML and CSS for the structures and styling of the website with responsive designs to fit all devices.
+secondly, used HTML and CSS for the structures and styling of the website.
+lastly, the use of php for the server-side of the contact form.
 
 *******************************************************************
 
