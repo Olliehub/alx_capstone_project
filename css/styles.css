@@ -32,7 +32,6 @@ body {
     background-color: rgba(11, 10, 11, 0.962);
     z-index: 0%;
     cursor: pointer;
-
 }
 
 /* Navigation bar */
@@ -102,7 +101,6 @@ a:hover {
     color: rgb(139, 41, 41);
     align-items: center;
     inline-size: 1.5px;
-    min-width: auto;
     margin: 0% auto;
 }
 .btn-box {
