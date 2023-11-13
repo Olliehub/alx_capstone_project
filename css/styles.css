@@ -5,13 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif
 }
 
 body {
     color: white;
     height: 100vh;
-    background-image: url('/git/alx_capstone_project/assets/wallpaper.jpg');
+    background-image: url('/alx_capstone_project/assets/Dark\ Wallpaper.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -76,7 +76,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(12, 3, 3);
-    background-image: url('/git/alx_capstone_project/assets/hands\ up.jpg');
+    background-image: url('/alx_capstone_project/assets/hands\ up.jpg');
     background-position: center;
     background-size: cover;
     margin: 0 auto;
@@ -216,7 +216,7 @@ a:hover {
     justify-content: space-around;
     height: 70vh;
     width: 100%;
-    background-color: rgba(232, 232, 231, 0.952), transparent;
+    background-color: rgba(232, 232, 231, 0.952);
     color: rgb(21, 21, 21);
 }
 .sub-title h1 {
@@ -232,6 +232,7 @@ a:hover {
     gap: 2em;
 }
 .container {
+    flex-wrap: nowrap;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -242,11 +243,11 @@ a:hover {
     box-sizing: border-box;
     box-shadow: 0 0 5px rgb(18, 5, 5);
     border-radius: 20px;
-    padding: 28px 50px 30px;
+    padding: 25px 50px 30px;
     margin: 0 auto;
     margin-top: 2rem;
     margin-left: 40px;
-    background-color: rgb(222, 220, 220)
+    background-color: rgb(167, 165, 165)
 }
 .headings {
     font-weight: 150px;
@@ -330,7 +331,7 @@ a:hover {
     justify-content: space-around;
     width: 100%;
     height: 55vh;
-    background-image: url('/git/alx_capstone_project/assets/Dark\ sunset\ wallpaper.jpg');
+    background-image: url('/alx_capstone_project/assets/Dark\ sunset\ wallpaper.jpg');
     background-position: center;
     background-size: cover;
     color: rgba(215, 169, 19, 0.974);
@@ -392,7 +393,7 @@ a:hover {
     padding-left: 30px;
     margin-top: 0px;
     color: rgba(3, 3, 3, 0.996);
-    background-color: rgb(250, 250, 250), transparent;
+    background-color: rgb(250, 250, 250);
     height: 50vh;
 }
 .contact-text h2 {
