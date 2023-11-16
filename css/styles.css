@@ -365,7 +365,6 @@ a:hover {
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
     box-shadow: 0 0 5px rgba(215, 169, 19, 0.974), 0 0 25px rgba(215, 169, 19, 0.974);
-
 }
 .btn-box2 a {
     display: flex;
